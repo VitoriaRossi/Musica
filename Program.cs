@@ -1,4 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
+
+Console.ForegroundColor = ConsoleColor.DarkRed;
+Console.WriteLine("Style - Taylor Swift");
+Console.ResetColor();
 Console.WriteLine(@"Midnight");
 Console.WriteLine("You come and pick me up, no headlights");
 Console.WriteLine("Long drive");
@@ -8,6 +12,7 @@ Console.WriteLine("It's been a while since I have even heard from you (heard fro
 Console.WriteLine("And I should just tell you to leave 'cause I");
 Console.WriteLine("Know exactly where it leads, but I");
 Console.WriteLine("Watch us go 'round and 'round each time");
+Console.ForegroundColor = ConsoleColor.DarkYellow;
 Console.WriteLine("You got that James Dean daydream look in your eye");
 Console.WriteLine("And I got that red lip classic thing that you like");
 Console.WriteLine("And when we go crashing down, we come back every time");
@@ -16,6 +21,7 @@ Console.WriteLine("You got that long hair, slicked back, white T-shirt");
 Console.WriteLine("And I got that good girl faith and a tight little skirt");
 Console.WriteLine("And when we go crashing down, we come back every time");
 Console.WriteLine("'Cause we never go out of style, we never go out of style");
+Console.ResetColor();
 Console.WriteLine("So it goes");
 Console.WriteLine("He can't keep his wild eyes on the road, mm");
 Console.WriteLine("Takes me home");
@@ -25,6 +31,7 @@ Console.WriteLine("That you've been out and about with some other girl, some oth
 Console.WriteLine("He says, 'What you heard is true, but I");
 Console.WriteLine("Can't stop thinkin' 'bout you and I'");
 Console.WriteLine("I said, 'I've been there too a few times'");
+Console.ForegroundColor = ConsoleColor.DarkYellow;
 Console.WriteLine("'Cause you got that James Dean daydream look in your eye");
 Console.WriteLine("And I got that red lip classic thing that you like");
 Console.WriteLine("And when we go crashing down, we come back every time");
@@ -33,12 +40,15 @@ Console.WriteLine("You got that long hair, slicked back, white T-shirt");
 Console.WriteLine("And I got that good girl faith and a tight little skirt (a tight little skirt)");
 Console.WriteLine("And when we go crashing down, we come back every time");
 Console.WriteLine("'Cause we never go out of style (we never go), we never go out of style");
+Console.ResetColor();
 Console.WriteLine("Take me home");
 Console.WriteLine("Just take me home");
 Console.WriteLine("Yeah, just take me home");
 Console.WriteLine("Oh, whoa, oh");
 Console.WriteLine("(Out of style)");
+Console.ForegroundColor = ConsoleColor.DarkYellow;
 Console.WriteLine("Oh, you got that James Dean daydream look in your eye");
 Console.WriteLine("And I got that red lip classic thing that you like");
 Console.WriteLine("And when we go crashing down (now we go), we come back every time");
 Console.WriteLine("'Cause we never go out of style, we never go out of style");
+Console.ResetColor();
